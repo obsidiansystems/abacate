@@ -2,7 +2,7 @@
 let
   overrides = self: super: {
   };
-  targets = ["ghc8107" "ghc981"];
+  targets = ["ghc8107" "ghc98"];
 
   ghcs = pkgs.lib.genAttrs targets (target: pkgs.haskell.packages.${target}.override {
     inherit overrides;

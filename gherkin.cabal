@@ -1,6 +1,6 @@
 name:               gherkin
 version:            0.0.0.2
-cabal-version:      >=1.8
+cabal-version:      >=1.10
 build-type:         Simple
 license:            OtherLicense
 license-file:       LICENSE
