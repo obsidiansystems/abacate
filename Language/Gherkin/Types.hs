@@ -1,18 +1,18 @@
 -- |
--- Module      :  Language.Abacate.Types
+-- Module      :  Language.Gherkin.Types
 -- Copyright   :  (c) Marco Túlio Pimenta Gontijo <marcotmarcot@gmail.com> 2012
 -- License     :  Apache 2.0 (see the file LICENSE)
 --
 -- Maintainer  :  Marco Túlio Pimenta Gontijo <marcotmarcot@gmail.com>
 -- Stability   :  unstable
 -- Portability :  portable
-module Language.Abacate.Types where
+module Language.Gherkin.Types where
 
 -- text
 import Data.Text
 
--- | An Abacate file contains exactly one feature.
-type Abacate = Feature
+-- | An Gherkin file contains exactly one feature.
+type Gherkin = Feature
 
 -- | For a more detailed description of features, check
 -- <https://github.com/cucumber/cucumber/wiki/Feature-Introduction>.

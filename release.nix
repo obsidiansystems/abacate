@@ -8,4 +8,4 @@ let
     inherit overrides;
   });
 in pkgs.lib.mapAttrs
-    (_: ghc: ghc.callCabal2nix "abacate" (pkgs.lib.cleanSource ./.) {}) ghcs
+    (_: ghc: ghc.callCabal2nix "gherkin" (pkgs.lib.cleanSource ./.) {}) ghcs

@@ -1,12 +1,12 @@
 -- |
--- Module      :  Language.Abacate.BNF
+-- Module      :  Language.Gherkin.BNF
 -- Copyright   :  (c) Marco Túlio Pimenta Gontijo <marcotmarcot@gmail.com> 2012
 -- License     :  Apache 2.0 (see the file LICENSE)
 --
 -- Maintainer  :  Marco Túlio Pimenta Gontijo <marcotmarcot@gmail.com>
 -- Stability   :  unstable
 -- Portability :  portable
-module Language.Abacate.BNF (abacate) where
+module Language.Gherkin.BNF (gherkin) where
 
 -- base
 import Prelude hiding (unlines)
@@ -20,11 +20,11 @@ import Data.Text hiding (map, show)
 import Text.Parsec
 import Text.Parsec.Text
 
--- abacate
-import Language.Abacate.Types
+-- gherkin
+import Language.Gherkin.Types
 
-abacate :: Parser Abacate
-abacate = feature
+gherkin :: Parser Gherkin
+gherkin = feature
 
 feature :: Parser Feature
 feature

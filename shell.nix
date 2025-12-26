@@ -1,7 +1,7 @@
 { pkgs ? import ./nixpkgs {} }:
 
 pkgs.mkShell {
-  name = "abacate-shell";
+  name = "gherkin-shell";
   buildInputs = [
     pkgs.cabal-install
     pkgs.ghcid
