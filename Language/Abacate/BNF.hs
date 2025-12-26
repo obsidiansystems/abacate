@@ -14,7 +14,7 @@ import Control.Applicative hiding (many, (<|>), optional)
 import Control.Monad
 
 -- text
-import Data.Text hiding (map)
+import Data.Text hiding (map, show)
 
 -- parsec
 import Text.Parsec

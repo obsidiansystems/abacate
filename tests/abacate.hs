@@ -16,7 +16,7 @@
 import System.Exit
 
 -- text
-import Data.Text hiding (map)
+import Data.Text hiding (map, show)
 
 -- abacate
 import Language.Abacate
